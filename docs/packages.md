@@ -87,6 +87,15 @@ the package will not show up in search.**
 
 Read more an [defining-blocks](/defining-blocks) to learn how to surface your APIs into blocks and JavaScript.
 
+## Landing page
+
+A package for `TARGET` will automatically receive a landing page at
+
+    https://[TARGET DOMAIN]/packages/[GitHub Org]/[Github Repo name]/
+
+The landing page automatically renders the README.md file of the package
+and provides a way for the user to add the package into favorites.
+
 ## Versioning
 
 When someone references your package from the web UI they will get
@@ -117,6 +126,7 @@ For target specific information,
 ## Samples
 
 * https://github.com/Microsoft/pxt-neopixel
+* https://github.com/Microsoft/pxt-filesystem
 * https://github.com/Microsoft/pxt-i2c-fram
 
 Be aware that if you just fork one of these, the **fork won't show up in search**.
